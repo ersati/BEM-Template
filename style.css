@@ -147,3 +147,51 @@
     background-color: black;
     color: white;
 }
+
+/*Article*/
+
+.article {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.article__head-text,
+.article__king-name,
+.article__text {
+    margin: 20px;
+}
+
+.article__one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.article__invisible {
+    display: none;
+}
+
+.article__invisible--active {
+    display: flex;
+    flex-direction: column;
+}
+
+.article__button {
+    border: 2px solid black;
+    background-color: white;
+    padding: 12px 30px;
+    font-family: 'Chelsea Market', cursive;
+    transition: 0.7s;
+    cursor: pointer;
+
+}
+
+.article__button--invisible {
+    display: none;
+}
+
+.article__button:hover {
+    background-color: black;
+    color: white;
+}
