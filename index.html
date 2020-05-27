@@ -1,70 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>BEM Template</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="slogan" id="home">
-        <h1 class="slogan__title">Dynasty of Piasts</h1>
+      <h1 class="slogan__title">Dynasty of Piasts</h1>
 
-        <button class="slogan__button">Enter</button>
+      <button class="slogan__button">Enter</button>
     </header>
-    <nav class="menu">
+    <main class="main">
+      <nav class="menu">
         <div class="logo">
-            <img src="img/icon.png" alt="" class="logo__image">
-            <h3 class="logo__name">Historical Blog</h3>
+          <img src="img/icon.png" alt="" class="logo__image" />
+          <h3 class="logo__name">Historical Blog</h3>
         </div>
         <ul class="menu__item-list">
-            <li class="menu__item"><a href="#home" class="menu__link">Home</a></li>
-            <li class="menu__item"><a href="#article" class="menu__link">Articles</a></li>
-            <li class="menu__item"><a href="" class="menu__link">Contact</a></li>
+          <li class="menu__item">
+            <a href="#home" class="menu__link">Home</a>
+          </li>
+          <li class="menu__item">
+            <a href="#article" class="menu__link">Articles</a>
+          </li>
+          <li class="menu__item"><a href="" class="menu__link">Contact</a></li>
         </ul>
-    </nav>
-    <div class="search">
-        <input type="text" class="search__input"><button class="search__button">Search</button>
-    </div>
+      </nav>
+      <div class="search">
+        <input type="search" class="search__input" /><button
+          class="search__button"
+        >
+          Search
+        </button>
+      </div>
 
-    <section class="article" id="article">
+      <section class="article" id="article">
         <h2 class="article__head-text">Piast dynasty of kings</h2>
         <article class="article__one" id="article">
-            <div class="article__visible">
-                <h3 class="article__king-name">Władysław I the Elbow-high</h3>
-                <p class="article__text">Władysław I Łokietek, in English known as the "Elbow-high" or Ladislaus the
-                    Short (; c. 1260 – 2
-                    March 1333) was the King of Poland from 1320 to 1333, and duke of several of the provinces and
-                    principalities in the preceding years. He was a member of the Piast family of rulers, son of Duke
-                    Casimir I of Kujawy, and great-grandson of King Casimir II the Just.</p>
-            </div>
-            <div class="article__invisible">
-
-                <p class="article__text">Władysław I inherited a small portion of his father's domain, but his dominion
-                    grew as some of his
-                    brothers died young. He unsuccessfully tried to incorporate the Duchy of Krakow (the Seniorate
-                    Province) in 1289, following the death of his half-brother Leszek II the Black and the withdrawal
-                    from contention of his ally Bolesław II of Masovia. After a period in exile during the rule of
-                    Wenceslaus II, Władysław regained several duchies and then Krakow in 1306 when Wenceslaus III was
-                    murdered. He temporarily took control of part of Greater Poland after the death of his ally Przemysł
-                    II, lost it, and then subsequently regained it.</p>
-                <p class="article__text">Władysław was a skilled military leader, but also an administrator - he
-                    conquered Gdansk Pomerania,
-                    and left it to familial governors. For the defense of this territory, he turned to the Teutonic
-                    Knights, who then demanded an exorbitant sum or the land itself as an alternative. This led to an
-                    extended battle with the Knights, which was not resolved after either a papal trial or Władysław's
-                    own death. Perhaps his greatest achievement was gaining papal permission to be crowned king of
-                    Poland in 1320, which occurred for the first time at Wawel Cathedral in Krakow. Władysław died in
-                    1333 and was succeeded by his son, Casimir III the Great.</p>
-            </div>
-            <button class="article__button ">Read More</button>
+          <div class="article__visible">
+            <h3 class="article__king-name">Władysław I the Elbow-high</h3>
+            <p class="article__text">
+              Władysław I Łokietek, in English known as the "Elbow-high" or
+              Ladislaus the Short (; c. 1260 – 2 March 1333) was the King of
+              Poland from 1320 to 1333, and duke of several of the provinces and
+              principalities in the preceding years. He was a member of the
+              Piast family of rulers, son of Duke Casimir I of Kujawy, and
+              great-grandson of King Casimir II the Just.
+            </p>
+          </div>
+          <div class="article__invisible">
+            <p class="article__text">
+              Władysław I inherited a small portion of his father's domain, but
+              his dominion grew as some of his brothers died young. He
+              unsuccessfully tried to incorporate the Duchy of Krakow (the
+              Seniorate Province) in 1289, following the death of his
+              half-brother Leszek II the Black and the withdrawal from
+              contention of his ally Bolesław II of Masovia. After a period in
+              exile during the rule of Wenceslaus II, Władysław regained several
+              duchies and then Krakow in 1306 when Wenceslaus III was murdered.
+              He temporarily took control of part of Greater Poland after the
+              death of his ally Przemysł II, lost it, and then subsequently
+              regained it.
+            </p>
+            <p class="article__text">
+              Władysław was a skilled military leader, but also an administrator
+              - he conquered Gdansk Pomerania, and left it to familial
+              governors. For the defense of this territory, he turned to the
+              Teutonic Knights, who then demanded an exorbitant sum or the land
+              itself as an alternative. This led to an extended battle with the
+              Knights, which was not resolved after either a papal trial or
+              Władysław's own death. Perhaps his greatest achievement was
+              gaining papal permission to be crowned king of Poland in 1320,
+              which occurred for the first time at Wawel Cathedral in Krakow.
+              Władysław died in 1333 and was succeeded by his son, Casimir III
+              the Great.
+            </p>
+          </div>
+          <button class="article__button">Read More</button>
         </article>
-    </section>
-    <footer></footer>
 
-    <script src="app.js"></script>
-</body>
+        <article class="article__one" id="article">
+          <div class="article__visible">
+            <h3 class="article__king-name">Casimir III the Great</h3>
+            <p class="article__text">
+              Casimir III the Great (Polish: Kazimierz III Wielki; 30 April 1310
+              – 5 November 1370) reigned as the King of Poland from 1333 to
+              1370. He was the third son of Władysław I the Elbow-high and
+              Jadwiga of Kalisz, and the last Polish king from the Piast
+              dynasty.
+            </p>
+          </div>
+          <div class="article__invisible">
+            <p class="article__text">
+              Casimir inherited a kingdom weakened by war and made it prosperous
+              and wealthy. He reformed the Polish army and doubled the size of
+              the kingdom. He reformed the judicial system and introduced a
+              legal code, gaining the title "the Polish Justinian".Casimir built
+              extensively and founded the University of Kraków, the oldest
+              Polish university. He also confirmed privileges and protections
+              previously granted to Jews and encouraged them to settle in Poland
+              in great numbers.
+            </p>
+            <p class="article__text">
+              Casimir left no lawful male heir to his throne, producing only
+              daughters. When he died in 1370 from an injury received while
+              hunting, his nephew, King Louis I of Hungary, succeeded him as
+              king of Poland in personal union with Hungary.
+            </p>
+          </div>
+          <button class="article__button">Read More</button>
+        </article>
+      </section>
+      <footer class="footer">
+        CopyRights 2020 All information from
+        <a class="footer__link" href="www.wikipedia.en">Wikipedia</a>
+      </footer>
 
+      <script src="app.js"></script>
+    </main>
+  </body>
 </html>
