@@ -44,10 +44,15 @@
     cursor: pointer;
 }
 
+.slogan__link {
+    font-family: 'Chelsea Market', cursive;
+    text-decoration: none;
+    color: white
+}
 
 .slogan__button:hover {
     background-color: rgba(0, 0, 0, 0.7);
-    font-weight: bold;
+    font-weight: 400;
 }
 
 /*Logo*/
