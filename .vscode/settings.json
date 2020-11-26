@@ -1,0 +1,27 @@
+{
+	"editor.formatOnSave": true,
+	"prettier.endOfLine": "auto",
+	"prettier.singleQuote": true,
+	"prettier.useTabs": true,
+	"eslint.alwaysShowStatus": true,
+	"eslint.codeAction.showDocumentation": {
+		"enable": true
+	},
+	"editor.codeActionsOnSave": {
+		"source.fixAll": true
+	},
+
+	"beautify.config": "",
+
+	"beautify.language": {
+		"js": {
+			"type": ["javascript", "json"],
+			"filename": [".jshintrc", ".jsbeautifyrc"]
+			// "ext": ["js", "json"]
+			// ^^ to set extensions to be beautified using the javascript beautifier
+		},
+		"css": ["css", "scss"],
+		"html": ["htm", "html"]
+		// ^^ providing just an array sets the VS Code file type
+	}
+}
